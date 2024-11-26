@@ -1,0 +1,57 @@
+.form-control:focus{
+    box-shadow:none !important; 
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    background-color: #f7eddf;
+    padding: 70px 0px;
+    font-family: "PT Sans Caption", sans-serif;
+}
+
+h2{
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+    padding: 8px 0px;
+    margin-bottom: 50px;
+    z-index: 1;
+    position: relative;
+}
+
+h2::before{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    width: 270px;
+    height: 30px;
+    background-color: #fec260;
+    z-index: -1;
+    transition: all .5s;
+}
+
+h2:hover::before{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    width: 270px;
+    height: 50px;
+    background-color: #fec260;
+    z-index: -1;
+}
+
+h3{
+    color: #3fa65c;
+    margin-bottom: 50px;
+    font-family: "Righteous", sans-serif;
+}
+
+.dotted-line {
+    width: 75%; 
+    border: none;
+    border-top: 2px dotted black;
+    margin: 0px auto;
+}
+
